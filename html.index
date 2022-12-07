@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="scripts.css" type="text/css">
+<script src="scripts.js"</script>
+<title>Pig Dice Game</title>
+</head>
+<body>
+  <h1>Let's Play PIG!</h1>
+  <div id="rules>
+    <p>Rules</p>
+      <ul>
+        <li>First player to 100 wins.</li>
+        <li>Players take turns rolling the die.</li>
+        <li>Turn ends when player rolls a 1 or chooses to hold</li>
+        <li>If a player rolls a 1, they lose all points earned during the turn.</li>
+        <li>If player holds, points earned during the turn are added to their total.</li>
+      </ul>
+      <label id="player1">Player 1</label>
+      <label id="score1">Score</label>
+      <br>
+      <label id="player2">Player 2</label>
+      <label id="score2>Score</label>
+      <input type="button" id="roll" value="Roll">
+      <input type="button" id="hold" value="Hold">
+
+      <label id="die">Die</label>
+      <label id="total">Total</label>
+    </div>
+  </body>
+</html>
